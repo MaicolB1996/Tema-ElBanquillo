@@ -1,0 +1,179 @@
+@media (max-width: 1020px) {
+  header .logo_ {
+    max-width: 60%;
+  }
+  header .logo_ img {
+    width: 40px;
+    height: auto;
+  }
+  .menu_mas nav li {
+    font-size: 15px;
+  }
+  header .menu_mas {
+    max-width: 95%;
+  }
+
+}
+
+@media (max-width: 999px) {
+  .menu_mas nav {
+    display: none;
+  }
+  .menu_mas .top_ {
+    display: none;
+  }
+  .cover_principal .grid_:first-child {
+    max-width: 100%;
+  }
+  .grid_ .portada .titulo_fichas {
+    width: 90%;
+    margin-left: 0px;
+    margin-left: 5%;
+  }
+  .cover_principal .grid_ {
+    max-width: 100%;
+    margin-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .portaditas .titulo_fichas {
+    margin-left: 5%;
+    width: 90%;
+  }
+  .cover_principal .grid_:last-child {
+    max-width: 100%;
+  }
+  .modulo_4 .grid_ {
+    max-width: 50%;
+    padding: 1px;
+  }
+  .grid .zocalo_cotent h2 {
+    font-size: 16px;
+    line-height: 18px !important;
+  }
+  .grid .zocalo_cotent h2 a {
+    font-weight: 400;
+  }
+  .cover_principal {
+    padding-top: 0px;
+    padding-bottom: 14px;
+  }
+  .cont_and_side .contenido_ {
+    max-width: 100%;
+    padding-right: 0px;
+    padding: 14px;
+  }
+  .modu_3 .grande_ .grid_ {
+    padding-right: 0px;
+  }
+  .modu_3 .grid {
+    max-width: 100%;
+  }
+  .modu_3 .grande_ .grid_ h2 {
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+  .modu_3 .peques_ .grid_ img {
+    width: 100px;
+    height: 80px;
+  }
+  .modu_3 .peques_ .grid_ h2 {
+    font-weight: 400;
+  }
+  .dosmodulos_ .grid {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .dosmodulos_ .grid:first-child {
+    padding-right: 0px;
+  }
+  .mod_side .grid_:nth-child(0n+2) h2 {
+    font-size: 19px;
+    line-height: 22px;
+    letter-spacing: 0px;
+  }
+  .mod_side .grid_ h2 {
+    font-weight: 400;
+  }
+  .cont_and_side .sidebar {
+    float: left;
+    max-width: 100%;
+    padding: 14px;
+  }
+  .end_modulo .grid_ {
+    max-width: 100%;
+  }
+  .elsingle .lanota {
+    max-width: 100%;
+  }
+  .elsingle .lanota .titulo_nota {
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+  .elsingle .lanota .titulo_nota h1 {
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 700;
+  }
+  .cabeza_mod h3 {
+    font-size: 16px;
+  }
+  .cabeza_mod a {
+    color: rgb(145, 145, 145);
+  }
+  .autor_redes_fecha .grid_autor {
+    margin-bottom: 0px;
+  }
+  .lanota .contenido_ {
+    padding: 0px;
+  }
+  .contenido_ .modu_3 {
+    padding: 20px;
+  }
+  .elsingle .sidebar_nota {
+    max-width: 100%;
+  }
+  .directorio_ {
+    padding: 20px;
+  }
+  .directorio_ .grid img {
+    width: 100px;
+    height: 90px;
+  }
+  .directorio_ .grid h2 {
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+  }
+  header .centradototal_ {
+    padding-left: 10px;
+    padding-right: 1px;
+  }
+   .buscador_mobile ion-icon {
+     font-size: 30px;
+   }
+   .mod_buscador {
+     padding: 10px;
+   }
+   .mod_buscador input[type=text] {
+     width: 100%;
+     max-width: 100%;
+     padding: 10px;
+     margin-bottom: 10px;
+   }
+   .mod_buscador button {
+      width: 100%;
+      padding: 7p;
+   }
+}
+
+@media (min-width: 999px) {
+  .buscador_mobile {
+    display: none;
+  }
+  #toggleglobal_menu {
+    display: none;
+  }
+}
