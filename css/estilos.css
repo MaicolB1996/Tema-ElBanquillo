@@ -1137,3 +1137,38 @@ header a:hover {
       background-color: var(--amarillo);
       color: #000;
     }
+
+
+.mensaje_error {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  padding: 30px;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  margin: auto;
+}
+  .mensaje_error h1 {
+    font-family: var(--textoalto);
+    color: black;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+  }
+  .mensaje_error .boton_inicio {
+    background-color: var(--amarillo);
+    color: #000;
+    text-shadow: 1px 2px 2px #fff;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .mensaje_error .boton_inicio:hover {
+    background-color: #000;
+    color: var(--amarillo);
+    text-shadow: 1px 1px 1px #000;
+  }
