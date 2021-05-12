@@ -1,4 +1,10 @@
 <?php
+/*
+Template name: Inicio
+*/
+?>
+
+<?php
 get_header(); ?>
 
 
