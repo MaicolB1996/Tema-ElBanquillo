@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width" />
 <title><?php wp_title(''); echo '  ';  bloginfo( 'name' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/estilos.css">
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/estilos.css?v=1.4">
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/responsive.css">
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 </head>
