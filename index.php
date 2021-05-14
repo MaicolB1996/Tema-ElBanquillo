@@ -123,7 +123,7 @@ get_header(); ?>
     <div class="modu_3">
       <div class="cabeza_mod">
         <hr>
-        <h3><a href="#">Atlético Nacional</a></h3>
+        <h3><a href="<?php echo get_home_url(); ?>/nacional/">Atlético Nacional</a></h3>
         <span class="botonmas"><a href="<?php echo get_home_url(); ?>/nacional/"><ion-icon name="add-circle-outline"></ion-icon></a></span>
       </div>
       <div class="grid grande_">
@@ -153,7 +153,7 @@ get_header(); ?>
         <div class="mod_side">
           <div class="cabeza_mod">
             <hr>
-            <h3><a href="#">América de Cali</a></h3>
+            <h3><a href="<?php echo get_home_url(); ?>/america/">América de Cali</a></h3>
             <span class="botonmas"><a href="<?php echo get_home_url(); ?>/america/"><ion-icon name="add-circle-outline"></ion-icon></a></span>
           </div>
           <?php $the_query = new WP_Query( 'category_name=america&showposts=3&offset=0' ); ?>
@@ -170,7 +170,7 @@ get_header(); ?>
         <div class="mod_side">
           <div class="cabeza_mod">
             <hr>
-            <h3><a href="#">Millonarios</a></h3>
+            <h3><a href="<?php echo get_home_url(); ?>/millonarios/">Millonarios</a></h3>
             <span class="botonmas"><a href="<?php echo get_home_url(); ?>/millonarios/"><ion-icon name="add-circle-outline"></ion-icon></a></span>
           </div>
           <?php $the_query = new WP_Query( 'category_name=millonarios&showposts=3&offset=0' ); ?>
@@ -195,7 +195,7 @@ get_header(); ?>
       <div class="mod_side">
         <div class="cabeza_mod">
           <hr>
-          <h3><a href="#">Atlético Junior</a></h3>
+          <h3><a href="<?php echo get_home_url(); ?>/junior/">Atlético Junior</a></h3>
           <span class="botonmas"><a href="<?php echo get_home_url(); ?>/junior/"><ion-icon name="add-circle-outline"></ion-icon></a></span>
         </div>
         <?php $the_query = new WP_Query( 'category_name=junior&showposts=3&offset=0' ); ?>
@@ -221,7 +221,7 @@ get_header(); ?>
     <div class="grid_">
       <div class="cabeza_mod">
         <hr>
-        <h3><a href="#">Liga BetPlay</a></h3>
+        <h3><a href="<?php echo get_home_url(); ?>/liga-betplay/">Liga BetPlay</a></h3>
         <span class="botonmas"><a href="<?php echo get_home_url(); ?>/liga-betplay/"><ion-icon name="add-circle-outline"></ion-icon></a></span>
       </div>
       <?php $the_query = new WP_Query( 'category_name=liga-betplay&showposts=1&offset=0' ); ?>
@@ -252,7 +252,7 @@ get_header(); ?>
     <div class="grid_">
       <div class="cabeza_mod small">
         <hr>
-        <h3><a href="#">Jugadores en el exterior</a></h3>
+        <h3><a href="<?php echo get_home_url(); ?>/jugadores-en-el-exterior/">Jugadores en el exterior</a></h3>
         <span class="botonmas"><a href="<?php echo get_home_url(); ?>/jugadores-en-el-exterior/"><ion-icon name="add-circle-outline"></ion-icon></a></span>
       </div>
       <?php $the_query = new WP_Query( 'category_name=jugadores-en-el-exterior&showposts=1&offset=0' ); ?>
@@ -282,7 +282,7 @@ get_header(); ?>
     <div class="grid_">
       <div class="cabeza_mod">
         <hr>
-        <h3><a href="#">Selección Colombia</a></h3>
+        <h3><a href="<?php echo get_home_url(); ?>/seleccion/">Selección Colombia</a></h3>
         <span class="botonmas"><a href="<?php echo get_home_url(); ?>/seleccion/"><ion-icon name="add-circle-outline"></ion-icon></a></span>
       </div>
       <?php $the_query = new WP_Query( 'category_name=seleccion&showposts=1&offset=0' ); ?>
@@ -312,7 +312,7 @@ get_header(); ?>
     <div class="grid_">
       <div class="cabeza_mod">
         <hr>
-        <h3><a href="#">UFC</a></h3>
+        <h3><a href="<?php echo get_home_url(); ?>/ufc/">UFC</a></h3>
         <span class="botonmas"><a href="<?php echo get_home_url(); ?>/ufc/"><ion-icon name="add-circle-outline"></ion-icon></a></span>
       </div>
       <?php $the_query = new WP_Query( 'category_name=ufc&showposts=1&offset=0' ); ?>
@@ -351,7 +351,7 @@ get_header(); ?>
   <div class="grid_">
     <div class="cabeza_mod">
       <hr>
-      <h3><a href="#">Ciclismo</a></h3>
+      <h3><a href="<?php echo get_home_url(); ?>/ciclismo/">Ciclismo</a></h3>
       <span class="botonmas"><a href="<?php echo get_home_url(); ?>/ciclismo/"><ion-icon name="add-circle-outline"></ion-icon></a></span>
     </div>
     <?php $the_query = new WP_Query( 'category_name=ciclismo&showposts=1&offset=0' ); ?>
@@ -382,7 +382,7 @@ get_header(); ?>
     <div class="grid_">
       <div class="cabeza_mod">
         <hr>
-        <h3><a href="#">Fútbol de Barrio</a></h3>
+        <h3><a href="<?php echo get_home_url(); ?>/futbol-de-barrio/">Fútbol de Barrio</a></h3>
         <span class="botonmas"><a href="<?php echo get_home_url(); ?>/futbol-de-barrio/"><ion-icon name="add-circle-outline"></ion-icon></a></span>
       </div>
       <?php $the_query = new WP_Query( 'category_name=futbol-de-barrio&showposts=1&offset=0' ); ?>
@@ -412,7 +412,7 @@ get_header(); ?>
     <div class="grid_">
       <div class="cabeza_mod">
         <hr>
-        <h3><a href="#">Otros</a></h3>
+        <h3><a href="<?php echo get_home_url(); ?>/otros/">Otros</a></h3>
         <span class="botonmas"><a href="<?php echo get_home_url(); ?>/otros/"><ion-icon name="add-circle-outline"></ion-icon></a></span>
       </div>
       <?php $the_query = new WP_Query( 'category_name=otros&showposts=1&offset=0' ); ?>

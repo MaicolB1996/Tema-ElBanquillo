@@ -1,11 +1,8 @@
 <?php
 get_header();?>
 
-
-
 <div class="elsingle">
   <article class="lanota">
-
     <div class="directorio_">
       <div class="cabeza_mod">
         <hr>
@@ -31,9 +28,6 @@ get_header();?>
 <?php include('sidebar.php');?>
   </aside>
 </div>
-
-
-
 
 <?php
 get_footer();?>
