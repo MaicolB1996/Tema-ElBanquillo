@@ -263,7 +263,7 @@ get_header(); ?>
       </div>
     <?php endwhile; ?>
       <div class="small_post">
-        <?php $the_query = new WP_Query( 'category_name=<?php echo get_home_url(); ?>&showposts=2&offset=1' ); ?>
+        <?php $the_query = new WP_Query( 'category_name=jugadores-en-el-exterior&showposts=2&offset=1' ); ?>
         <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
         <div class="grid">
           <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
