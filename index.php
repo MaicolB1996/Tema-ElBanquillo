@@ -131,7 +131,7 @@ get_header(); ?>
         <?php endwhile; ?>
       </div>
       <div class="grid peques_">
-        <?php $the_query = new WP_Query( 'cat=0&showposts=3&offset=1' ); ?>
+        <?php $the_query = new WP_Query( 'category_name=nacional&showposts=3&offset=1' ); ?>
         <?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
         <div class="grid_">
           <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
