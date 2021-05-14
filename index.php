@@ -19,7 +19,13 @@ get_header(); ?>
         <div class="titulo_fichas">
           <hr>
           <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt....</p>
+          <p>
+            <?php
+              $excerpt = get_the_excerpt();
+              $excerpt = substr( $excerpt , 0, 140);
+              echo $excerpt;
+            ?>
+          </p>
           <div class="zocalo_portada">
             <span class="autor_nota">
               <ion-icon name="person-outline"></ion-icon> <b>Por:</b> <?php the_author(); ?>
