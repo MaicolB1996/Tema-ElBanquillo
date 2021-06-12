@@ -167,6 +167,20 @@
       width: 100%;
       padding: 7p;
    }
+   .footer_ .logo_footer img {
+     display: none;
+   }
+   .logmob {
+     display: none;
+   }
+   .home_head {
+     font-size: 22px;
+     margin-top: 5px;
+   }
+   .buscador_mobile ion-icon {
+     font-size: 22px;
+     margin-top: 5px;
+   }
 }
 
 @media (min-width: 999px) {
@@ -176,4 +190,12 @@
   #toggleglobal_menu {
     display: none;
   }
+  .texto_logo {
+    display: none;
+  }
+  .texto_logo {
+    display: none;
+  }
+  .home_head {
+  display: none;}
 }
