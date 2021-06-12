@@ -6,8 +6,9 @@
 <meta name="viewport" content="width=device-width" />
 <title><?php wp_title(''); echo '  ';  bloginfo( 'name' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/estilos.css?v=1.4">
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/responsive.css">
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/estilos.css?v=2.9">
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/responsive.css?v=2.9">
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/menu.css?v=2.9">
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 </head>
 <body <?php body_class(); ?>>
@@ -27,15 +28,22 @@
         </div>
         <div class="logo_">
           <a href="<?php echo get_home_url(); ?>">
-            <img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="">
+            <img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="" class="logmob mdg43">
           </a>
+          <span class="texto_logo">
+            <a href="<?php echo get_home_url(); ?>">ElBanquiloTV.co</a>
+          </span>
         </div>
         <a  class="buscador_mobile">
           <ion-icon id="toggleglobal_mobile" name="search-outline"></ion-icon>
         </a>
+        <div class="home_head">
+          <a href="<?php echo get_home_url(); ?>"><ion-icon name="home-outline"></ion-icon></a>
+        </div>
         <div class="menu_mas">
           <div class="top_">
             <ul>
+              <li class="internas_log"><a href="<?php echo get_home_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/img/logo.png"></a> </li>
               <li class="title_head">ElbanquilloTV.co</li>
               <li><a href="<?php echo get_home_url(); ?>"><ion-icon name="home-outline"></ion-icon> Inicio</a></li>
               <li><a href=""><ion-icon name="mail-outline"></ion-icon> <?php the_time( 'D d F - Y' ); ?></a></li>
@@ -47,9 +55,16 @@
             </ul>
           </div>
           <nav>
-            <ul>
+            <!-- <ul>
               <?php wp_nav_menu (array ('theme_location' => 'menu-header')); ?>
-            </ul>
+            </ul> -->
+            <?php
+            wp_nav_menu(array(
+              'menu' => 'menu-header',
+              'container_id' => 'cssmenu',
+              'walker' => new CSS_Menu_Maker_Walker()
+            ));
+            ?>
           </nav>
         </div>
       </div>
