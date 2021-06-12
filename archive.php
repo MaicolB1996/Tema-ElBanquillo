@@ -1,6 +1,8 @@
 <?php
 get_header();?>
 
+<?php include('custom/colores.php');?>
+
 <div class="elsingle">
   <article class="lanota">
     <div class="directorio_">
